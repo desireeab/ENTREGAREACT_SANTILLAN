@@ -24,7 +24,7 @@ const ProductCard = ({ item }) => {
       <CardActions>
         <Link to={`/itemDetail/${item.id}`}>
           <Button size="small" variant="contained">
-            Ver detalle
+            More info
           </Button>
         </Link>
       </CardActions>
